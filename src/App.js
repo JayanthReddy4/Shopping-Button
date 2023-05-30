@@ -10,7 +10,7 @@ export default function App() {
 const [itemCount, setItemCount] = React.useState(1);
 
 return (
-	<div style={{ display: "block", padding: 30 }}>
+	<div style={{ display: "block", padding: 100}}>
 	<h4>How to create ShoppingCart Button in ReactJS?</h4>
 	<div>
 		<Badge color="secondary" badgeContent={itemCount}>
